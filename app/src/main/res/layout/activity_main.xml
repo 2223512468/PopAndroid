@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/main_btn01"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_above="@+id/main_btn02"
+        android:layout_margin="5dp"
+        android:background="@drawable/main_btn"
+        android:text="第一种实现方式（PopupWindow实现）"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/main_btn02"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/main_btn"
+        android:text="第二种实现方式（Activity实现）"
+        android:textSize="16dp" />
+
+</RelativeLayout>
